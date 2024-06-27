@@ -6,7 +6,8 @@ while True:
     if cont == "Y":
         break
     elif cont == "N":
-        sys.exit("Goodbye!")
+        print("Goodbye!")
+        sys.exit(0)
 while True:
     print ("Enter a number to choose your option:\n1 = Rock\n2 = Paper\n3 = Scissor")
     while True:
@@ -52,4 +53,5 @@ while True:
         if cont == "Y":
             break
         elif cont == "N":
-            sys.exit("Goodbye!")
+            print("Goodbye!")
+            sys.exit(0)
